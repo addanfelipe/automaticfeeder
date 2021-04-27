@@ -1,8 +1,8 @@
 <template>
-  <div class="text-center mt-3" style="margin-bottom: 80px">
+  <div class="text-center mt-3 mb-5">
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <span style="font-size: 100px" class="text-secondary">345g</span>
-    <br/>
+    <br />
     <span style="font-size: 20px" class="text-secondary">Peso atual</span>
   </div>
   <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
@@ -10,7 +10,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-4">
-        <form>
+        <form class="row">
           <div class="mb-3">
             <label class="form-label">Qtd. de gramas ideal</label>
             <input class="form-control" type="number" />
@@ -19,7 +19,9 @@
           <div class="mb-3">
             <label class="form-label">Qtd. de gramas minima</label>
             <input class="form-control" type="number" />
-            <div class="form-text">O recipiente encherá quando o peso estiver neste valor</div>
+            <div class="form-text">
+              O recipiente encherá quando o peso estiver neste valor
+            </div>
           </div>
           <div class="mb-3">
             <label class="form-label">Verificar peso a cada (segundos)</label>
@@ -49,6 +51,11 @@
               <input type="time" aria-label="Início" class="form-control" />
               <input type="time" aria-label="Fim" class="form-control" />
             </div>
+          </div>
+          <div class="col-12">
+            <button type="button" class="col-12 btn btn-success">
+              Salvar alterações
+            </button>
           </div>
         </form>
       </div>
