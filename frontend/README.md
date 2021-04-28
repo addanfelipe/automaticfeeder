@@ -5,6 +5,12 @@
 yarn install
 ```
 
+### Auth https://io.adafruit.com/ (Server MQTT)
+```
+Copy .env.example to .env
+```
+
+
 ### Compiles and hot-reloads for development
 ```
 yarn serve
