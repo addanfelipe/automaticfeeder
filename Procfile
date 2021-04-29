@@ -1,1 +1,0 @@
-web: cd frontend; yarn; yarn build; yarn production;
