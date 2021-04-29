@@ -3,6 +3,6 @@
     "serve": "^11.3.2"
   },
   "scripts": {
-    "start": "yarn serve -s dist -p $PORT"
+    "start": "yarn serve -s dist -l tcp://0.0.0.0:$PORT"
   }
 }
